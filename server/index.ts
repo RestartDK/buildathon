@@ -56,7 +56,7 @@ Be encouraging and supportive.`;
 
 // Create HTTP server using Bun
 const server = Bun.serve({
-  port: process.env.PORT || 3001,
+  port: 3001,
   async fetch(req) {
     // Handle CORS
     if (req.method === 'OPTIONS') {
